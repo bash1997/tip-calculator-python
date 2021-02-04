@@ -20,6 +20,7 @@ people = int(people)
 
 per_person = (total * percent + total) / people
 per_person = round(per_person, 2)
+per_person = "{:.2f}".format(per_person) #limit a float to two decimal places
 
 result = f"Each person should pay: ${per_person}" #used a f-string to add a string and an float
 
