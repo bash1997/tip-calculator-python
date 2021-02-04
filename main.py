@@ -12,7 +12,7 @@ total = input("What was the total bill? $") #$150
 total = float(total)
 
 percent = input("What percentage tip would you like to give? 10, 12, or 15? ") #10
-percent = int(percent)
+percent = int(percent) #don't want any decimal pionts
 percent /= 100
 
 people = input("How many people to split the bill? ") #2
